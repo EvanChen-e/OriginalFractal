@@ -16,7 +16,7 @@ public void draw(){
   rect(0,0,500,500);
   fill(255,255,255);
   //translate(250,250);
-  //rotate(rotate);
+  rotate(rotate);
   //translate(-250,-250);
   rotateSquare(ex,ey,len,0,0,0);
   len++;
