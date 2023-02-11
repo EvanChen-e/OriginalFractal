@@ -1,4 +1,4 @@
-float rotate = 1;
+float rotatelol = 1;
 int len = 3;
 int ex = 250;
 int ey = 250;
@@ -15,9 +15,9 @@ public void draw(){
   fill(0,255,255);
   rect(0,0,500,500);
   fill(255,255,255);
-  //translate(250,250);
-  rotate(rotate);
-  //translate(-250,-250);
+  translate(250,250);
+  rotate(rotatelol);
+  translate(-250,-250);
   rotateSquare(ex,ey,len,0,0,0);
   len++;
   if(len>20){
@@ -36,9 +36,9 @@ public void draw(){
   ey++; 
   }
   if(click==true){
-  rotate+=0.05;
+  rotatelol+=0.05;
   } else {
-   rotate+=0.15; 
+   rotatelol+=0.15; 
   }
 }
 
@@ -63,9 +63,9 @@ public void rotateSquare(int x, int y, int len, int lol, int two, int three){
   vertex(x-len/2,y+len);
   vertex(x-len-(len/10),y);
   endShape(CLOSE);
- //translate(250,250);
- //rotate(0.05);
- //translate(-250,-250);
+ translate(250,250);
+ rotate(0.05);
+ translate(-250,-250);
  }
 }
 
