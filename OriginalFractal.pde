@@ -38,7 +38,7 @@ public void draw(){
   }
   rotatelol+=0.05;
   } else {
-   rotatelol+=0.15;
+   rotatelol+=0.09;
    ex=250;
    ey=250;
   }
