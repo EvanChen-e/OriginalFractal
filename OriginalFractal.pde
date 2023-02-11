@@ -63,9 +63,9 @@ public void rotateSquare(int x, int y, int len, int lol, int two, int three){
   vertex(x-len/2,y+len);
   vertex(x-len-(len/10),y);
   endShape(CLOSE);
- translate(250,250);
- rotate(0.05);
- translate(-250,-250);
+ //translate(250,250);
+ //rotate(0.05);
+ //translate(-250,-250);
  }
 }
 
