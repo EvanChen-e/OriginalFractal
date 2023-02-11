@@ -23,6 +23,7 @@ public void draw(){
   if(len>20){
     len=3;
   }
+  if(click==true){
   if(ex>300){
     change=true;
   } else if(ex < 200){
@@ -35,10 +36,11 @@ public void draw(){
   ex++;
   ey++; 
   }
-  if(click==true){
   rotatelol+=0.05;
   } else {
-   rotatelol+=0.15; 
+   rotatelol+=0.15;
+   ex=250;
+   ey=250;
   }
 }
 
